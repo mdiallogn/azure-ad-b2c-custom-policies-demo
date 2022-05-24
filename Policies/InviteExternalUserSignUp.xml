@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TrustFrameworkPolicy
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns="http://schemas.microsoft.com/online/cpim/schemas/2013/06"
+  PolicySchemaVersion="0.3.0.0"
+  TenantId="litware369b2c.onmicrosoft.com"
+  PolicyId="B2C_1A_signup_invitation"
+  PublicPolicyUri="http://litware369b2c.onmicrosoft.com/B2C_1A_signup_invitation"
+  UserJourneyRecorderEndpoint="urn:journeyrecorder:applicationinsights">
+
+  <BasePolicy>
+    <TenantId>litware369b2c.onmicrosoft.com</TenantId>
+    <PolicyId>B2C_1A_ext</PolicyId>
+  </BasePolicy>
+
+  <RelyingParty>
+    <DefaultUserJourney ReferenceId="GenerateInviteToken" />
+    <UserJourneyBehaviors>
+      <JourneyInsights TelemetryEngine="ApplicationInsights" InstrumentationKey="cf92a18e-7210-4381-88a8-d687888c532f" DeveloperMode="true" ClientEnabled="true" ServerEnabled="true" TelemetryVersion="1.0.0" />
+      <ScriptExecution>Allow</ScriptExecution>
+    </UserJourneyBehaviors>
+    <TechnicalProfile Id="PolicyProfile">
+      <DisplayName>PolicyProfile</DisplayName>
+      <Protocol Name="OpenIdConnect" />
+      <OutputClaims>
+        <OutputClaim ClaimTypeReferenceId="sub" DefaultValue="{OIDC:LoginHint}" />
+        <OutputClaim ClaimTypeReferenceId="email" DefaultValue="{OIDC:LoginHint}" />
+        <OutputClaim ClaimTypeReferenceId="displayName" DefaultValue="{OAUTH-KV:displayName}" AlwaysUseDefaultValue="true" />
+        <OutputClaim ClaimTypeReferenceId="tenantId" AlwaysUseDefaultValue="true" DefaultValue="{Policy:TenantObjectId}" />
+      </OutputClaims>
+      <SubjectNamingInfo ClaimType="sub" ExcludeAsClaim="false" />
+    </TechnicalProfile>
+
+</TrustFrameworkPolicy>
