@@ -1,4 +1,4 @@
-# Woodgrove Groceries Demo
+# Litware Groceries Demo
 
 This repository includes all the relevant source code and policies for the demo site: <https://aka.ms/CIAMDemo>
 
