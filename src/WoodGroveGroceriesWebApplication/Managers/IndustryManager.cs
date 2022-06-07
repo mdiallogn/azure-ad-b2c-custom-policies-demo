@@ -193,25 +193,25 @@
                         {
                             "en", new CustomLocaleValue
                             {
-                                EmailCodeSubject = "Woodgrove Groceries account email verification code",
+                                EmailCodeSubject = "LitwareGroceries account email verification code",
                                 EmailCodeHtmlContent =
-                                    "<p>Hi,</p><p>Thanks for verifying your {email} account!</a>.</p>Your code is: {code}<p><p>Regards,</p><p>The WoodGrove Groceries Team</p>"
+                                    "<p>Hi,</p><p>Thanks for verifying your {email} account!</a>.</p>Your code is: {code}<p><p>Regards,</p><p>The LitwareGroceries Team</p>"
                             }
                         },
                         {
                             "es", new CustomLocaleValue
                             {
-                                EmailCodeSubject = "Código de verificación de correo electrónico de la cuenta de Woodgrove Groceries",
+                                EmailCodeSubject = "Código de verificación de correo electrónico de la cuenta de LitwareGroceries",
                                 EmailCodeHtmlContent =
-                                    "<p>Hola,</p><p>¡Gracias por verificar su cuenta de {email}!</a>.</p>Su código es: {code}<p><p>Saludos,</p><p>El equipo de WoodGrove Groceries</p>"
+                                    "<p>Hola,</p><p>¡Gracias por verificar su cuenta de {email}!</a>.</p>Su código es: {code}<p><p>Saludos,</p><p>El equipo de LitwareGroceries</p>"
                             }
                         },
                         {
                             "fr", new CustomLocaleValue
                             {
-                                EmailCodeSubject = "Code de vérification de l'e-mail du compte Woodgrove Groceries",
+                                EmailCodeSubject = "Code de vérification de l'e-mail du compte LitwareGroceries",
                                 EmailCodeHtmlContent =
-                                    "<p>salut,</p><p>Merci d'avoir vérifié votre compte {email}!</a>.</p>Votre code est: {code}<p><p>Cordialement,</p><p>L'équipe WoodGrove Groceries</p>"
+                                    "<p>salut,</p><p>Merci d'avoir vérifié votre compte {email}!</a>.</p>Votre code est: {code}<p><p>Cordialement,</p><p>L'équipe LitwareGroceries</p>"
                             }
                         }
                     }
@@ -222,25 +222,25 @@
                         {
                             "en", new CustomLocaleValue
                             {
-                                EmailCodeSubject = "Welcome to  Woodgrove Groceries",
+                                EmailCodeSubject = "Welcome to  LitwareGroceries",
                                 EmailCodeHtmlContent =
-                                    "<p>Hi,</p><p>{fromName} has invited you to register with Woodgrove Groceries</a>. </p><a href='{link}'>Accept Invitation</a><p><p>Regards,</p><p>the Woodgrove Groceries team</p>"
+                                    "<p>Hi,</p><p>{fromName} has invited you to register with LitwareGroceries</a>. </p><a href='{link}'>Accept Invitation</a><p><p>Regards,</p><p>the LitwareGroceries team</p>"
                             }
                         },
                         {
                             "es", new CustomLocaleValue
                             {
-                                EmailCodeSubject = "Bienvenido a Woodgrove Groceries",
+                                EmailCodeSubject = "Bienvenido a LitwareGroceries",
                                 EmailCodeHtmlContent =
-                                    "<p>Hola,</p><p>{fromName} te ha invitado a registrarse con Woodgrove Groceries</a>. </p><a href='{link}'>Aceptar la invitacion</a><p><p>Saludos,</p><p>el equipo Woodgrove Groceries</p>"
+                                    "<p>Hola,</p><p>{fromName} te ha invitado a registrarse con LitwareGroceries</a>. </p><a href='{link}'>Aceptar la invitacion</a><p><p>Saludos,</p><p>el equipo LitwareGroceries</p>"
                             }
                         },
                         {
                             "fr", new CustomLocaleValue
                             {
-                                EmailCodeSubject = "Bienvenue à Woodgrove Groceries",
+                                EmailCodeSubject = "Bienvenue à LitwareGroceries",
                                 EmailCodeHtmlContent =
-                                    "<p>salut,</p><p>{fromName} vous a invité à vous inscrire avec Woodgrove Groceries</a>. </p><a href='{link}'>Accepter l'invitation</a><p><p>Cordialement,</p><p>L'équipe Woodgrove Groceries</p>"
+                                    "<p>salut,</p><p>{fromName} vous a invité à vous inscrire avec LitwareGroceries</a>. </p><a href='{link}'>Accepter l'invitation</a><p><p>Cordialement,</p><p>L'équipe LitwareGroceries</p>"
                             }
                         }
                     }
@@ -251,25 +251,25 @@
                         {
                             "en", new CustomLocaleValue
                             {
-                                EmailCodeSubject = "Welcome to  Woodgrove Groceries",
+                                EmailCodeSubject = "Welcome to  LitwareGroceries",
                                 EmailCodeHtmlContent =
-                                    "<p>Hi,</p><p>Please find the credentials associated with the account number '{accountNumber}' <br/><br/> {userNameList}</p><p>Regards,</p><p>The Woodgrove Groceries team</p>"
+                                    "<p>Hi,</p><p>Please find the credentials associated with the account number '{accountNumber}' <br/><br/> {userNameList}</p><p>Regards,</p><p>The LitwareGroceries team</p>"
                             }
                         },
                         {
                             "es", new CustomLocaleValue
                             {
-                                EmailCodeSubject = "Bienvenido a Woodgrove Groceries",
+                                EmailCodeSubject = "Bienvenido a LitwareGroceries",
                                 EmailCodeHtmlContent =
-                                    "<p>Hola,</p><p>Por favor, encontrar las credenciales asociadas con el número de cuenta '{accountNumber}' <br/><br/> {userNameList}</p><p>Saludos,</p><p>El equipo Woodgrove Groceries</p>"
+                                    "<p>Hola,</p><p>Por favor, encontrar las credenciales asociadas con el número de cuenta '{accountNumber}' <br/><br/> {userNameList}</p><p>Saludos,</p><p>El equipo LitwareGroceries</p>"
                             }
                         },
                         {
                             "fr", new CustomLocaleValue
                             {
-                                EmailCodeSubject = "Bienvenue à Woodgrove Groceries",
+                                EmailCodeSubject = "Bienvenue à LitwareGroceries",
                                 EmailCodeHtmlContent =
-                                    "<p>salut,</p><p>S'il vous plaît trouver les informations d'identification associées au numéro de compte '{accountNumber}' <br/><br/> {userNameList}</p><p>Cordialement,</p><p>L'équipe Woodgrove Groceries</p>"
+                                    "<p>salut,</p><p>S'il vous plaît trouver les informations d'identification associées au numéro de compte '{accountNumber}' <br/><br/> {userNameList}</p><p>Cordialement,</p><p>L'équipe LitwareGroceries</p>"
                             }
                         }
                     }
@@ -289,7 +289,7 @@
                 new KeyValuePair<string, string>("fr", "fr")
             });
 
-        public string Title => "Woodgrove Groceries";
+        public string Title => "LitwareGroceries";
 
         public string LandingPageMainText => "Save Time";
         public string LandingPageSubText => "Let us do the grocery shopping for you";
@@ -302,7 +302,7 @@
         public string LoginPageIndividualCustomerTitle => "Individual customers";
 
         public string LoginPageIndividualCustomerSubText =>
-            "Order your fresh groceries with WoodGrove Groceries and our friendly drivers will deliver your grocery shopping to your home door.";
+            "Order your fresh groceries with LitwareGroceries and our friendly drivers will deliver your grocery shopping to your home door.";
 
         public string LoginPageIndividualCustomerAccountName => "personal account";
 
@@ -310,7 +310,7 @@
         public string LoginPageBusinessCustomerTitle => "Business customers";
 
         public string LoginPageBusinessCustomerSubText =>
-            "Order your fresh groceries with WoodGrove Groceries and our friendly drivers will deliver your grocery shopping to your office door.";
+            "Order your fresh groceries with LitwareGroceries and our friendly drivers will deliver your grocery shopping to your office door.";
 
         public string LoginPageBusinessCustomerAccountName => "work account";
 
@@ -333,7 +333,7 @@
         public string TrolleyContinueShopping => "Continue shopping";
         public string TrolleyCompletePurchase => "Complete Purchase";
 
-        public string CheckoutMessage => "Thank you for shopping at Woodgrove Groceries. Your order is being shipped.";
+        public string CheckoutMessage => "Thank you for shopping at LitwareGroceries. Your order is being shipped.";
 
         public string CatalogAddToCart => "Add To Cart";
 

@@ -105,7 +105,7 @@
                 {
                     var userNames = user.Select(x => x.UserName.value).ToList();
 
-                    //var htmlContent = "<p>Hi,</p><p>Please find the {usernameplural} associated with the account number '{accountNumber}' <br/><br/> {userNameList}</p><p>Regards,</p><p>The WoodGrove Groceries Team</p>";
+                    //var htmlContent = "<p>Hi,</p><p>Please find the {usernameplural} associated with the account number '{accountNumber}' <br/><br/> {userNameList}</p><p>Regards,</p><p>The LitwareGroceries Team</p>";
 
                     var customLanguage = industryManager.GetIndustry(inputClaims.Culture)
                         ?.GetLocalizedEmailString(LocalizedEmailUse.SendUsernames, inputClaims.Culture);
@@ -126,7 +126,7 @@
                         customLanguage.EmailCodeHtmlContent = customLanguage.EmailCodeHtmlContent.Replace(kvp.Key, kvp.Value);
                     }
 
-                    //var subject = "Welcome to WoodGrove Groceries";
+                    //var subject = "Welcome to LitwareGroceries";
                     var subject = customLanguage.EmailCodeSubject;
                     var client = new SendGridClient(Config["SendGrid:ApiKey"]);
                     var from = new EmailAddress(inputClaims.FromAddress);

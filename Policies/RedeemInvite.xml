@@ -216,7 +216,7 @@
           <DisplayName>Retrieves security groups assigned to the user</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://your-azurefunction-app.azurewebsites.net/api/NotifyNewSignup?code=....</Item>
+            <Item Key="ServiceUrl">https://litware369b2c.azurewebsites.net/api/NotifyNewSignup?code=....</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>

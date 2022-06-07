@@ -2904,7 +2904,7 @@
           <DisplayName>Validate User Account Id</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://litware369b2cdemo.azurewebsites.net/api/ThrowError</Item>
+            <Item Key="ServiceUrl">https://litware369b2c.azurewebsites.net//api/ThrowError</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -2916,7 +2916,7 @@
           <DisplayName>Validate User Account Id</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://litware369b2cdemo.azurewebsites.net/api/ValidateUserAccountId</Item>
+            <Item Key="ServiceUrl">https://litware369b2c.azurewebsites.net//api/ValidateUserAccountId</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -2931,7 +2931,7 @@
           <DisplayName>Calculate User Profile Complete Percentage</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://litware369b2cdemo.azurewebsites.net/api/UserProfileCalcluateProfileCompletePercentage</Item>
+            <Item Key="ServiceUrl">https://litware369b2c.azurewebsites.net//api/UserProfileCalcluateProfileCompletePercentage</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -2953,7 +2953,7 @@
           <DisplayName>Send invitation to external users</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://litware369b2cdemo.azurewebsites.net/api/MailService/MakeInviteUrl</Item>
+            <Item Key="ServiceUrl">https://litware369b2c.azurewebsites.net//api/MailService/MakeInviteUrl</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -2983,7 +2983,7 @@
           <DisplayName>Send Email verification code to the user email</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://litware369b2cdemo.azurewebsites.net/api/MailService/SendEmailCode</Item>
+            <Item Key="ServiceUrl">https://litware369b2c.azurewebsites.net//api/MailService/SendEmailCode</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -3004,7 +3004,7 @@
           <DisplayName>Send user name to the user email</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://litware369b2cdemo.azurewebsites.net/api/MailService/SendUsernameToEmail</Item>
+            <Item Key="ServiceUrl">https://litware369b2c.azurewebsites.net//api/MailService/SendUsernameToEmail</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -3028,7 +3028,7 @@
           <DisplayName>Generate TOTP Web Hook Azure Function</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://litware369b2cdemo.azurewebsites.net/api/identity/Generate</Item>
+            <Item Key="ServiceUrl">https://litware369b2c.azurewebsites.net//api/identity/Generate</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -3049,7 +3049,7 @@
           <DisplayName>Verify TOTP Web Hook Azure Function</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://litware369b2cdemo.azurewebsites.net/api/identity/verify</Item>
+            <Item Key="ServiceUrl">https://litware369b2c.azurewebsites.net//api/identity/verify</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -4671,7 +4671,7 @@
           <DisplayName>Retrieves security groups assigned to the user</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://litware369b2cdemo.azurewebsites.net/api/NotifyNewSignup?code=....</Item>
+            <Item Key="ServiceUrl">https://litware369b2c.azurewebsites.net//api/NotifyNewSignup?code=....</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>

@@ -13,7 +13,7 @@
     <ContentDefinitions>
 
       <ContentDefinition Id="api.account.profile">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=EditProfile</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=EditProfile</LoadUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <LocalizedResourcesReferences MergeBehavior="Prepend">
           <LocalizedResourcesReference Language="en" Url="https://bing.com" LocalizedResourcesReferenceId="api.account.profile.en" />
@@ -33,16 +33,16 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.idpselection">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=AccountLinkingDragAndDrop</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=AccountLinkingDragAndDrop</LoadUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:providerselection:1.2.0</DataUri>
       </ContentDefinition>
 
       <ContentDefinition Id="api.account.termsofservice">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=TOC</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=TOC</LoadUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
       </ContentDefinition>
       <ContentDefinition Id="api.enterpriseaccount.registration">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=EARegistration</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=EARegistration</LoadUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <LocalizedResourcesReferences MergeBehavior="Prepend">
           <LocalizedResourcesReference Language="en" Url="https://bing.com" LocalizedResourcesReferenceId="api.enterpriseaccount.registration.en" />
@@ -58,11 +58,11 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.localaccount.password">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=Unified</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=Unified</LoadUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
       </ContentDefinition>
       <ContentDefinition Id="api.localaccount.registration">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=LARegistration</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=LARegistration</LoadUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <LocalizedResourcesReferences MergeBehavior="Prepend">
           <LocalizedResourcesReference Language="en" Url="https://bing.com" LocalizedResourcesReferenceId="api.localaccount.registration.en" />
@@ -78,7 +78,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.localaccount.registrationByUsername">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=LARegistrationByUsername</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=LARegistrationByUsername</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <Metadata>
@@ -98,7 +98,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.localaccount.registrationByUsernameAgeGating">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=LARegistrationByUsernameAgeGating</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=LARegistrationByUsernameAgeGating</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <Metadata>
@@ -118,7 +118,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.localaccount.registrationByPhoneCode">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=LARegistrationByPhoneCode</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=LARegistrationByPhoneCode</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <Metadata>
@@ -138,7 +138,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.localaccount.localAccountAgeGating">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=LAAgeGating</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=LAAgeGating</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <Metadata>
@@ -158,7 +158,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.localaccount.loginByPhoneCode">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=LALoginByPhoneCode</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=LALoginByPhoneCode</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <Metadata>
@@ -178,7 +178,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.forgotUsername">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=ForgotUsername</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=ForgotUsername</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <Metadata>
@@ -198,7 +198,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.forgotUsernameMessage">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=ForgotUsernameMessage</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=ForgotUsernameMessage</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <Metadata>
@@ -218,7 +218,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.localaccount.registrationFromInvitation">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=LARegistrationFromInvitation</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=LARegistrationFromInvitation</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <Metadata>
@@ -238,7 +238,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.socialaccount.registration">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=SARegistration</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=SARegistration</LoadUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <LocalizedResourcesReferences MergeBehavior="Prepend">
           <LocalizedResourcesReference Language="en" Url="https://bing.com" LocalizedResourcesReferenceId="api.socialaccount.registration.en" />
@@ -254,7 +254,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.socialaccount.registrationAgeGating">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=SARegistrationAgeGating</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=SARegistrationAgeGating</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <Metadata>
@@ -274,7 +274,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.unified">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=Unified</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=Unified</LoadUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:unifiedssp:2.0.0</DataUri>
         <LocalizedResourcesReferences MergeBehavior="Prepend">
           <LocalizedResourcesReference Language="en" Url="https://bing.com" LocalizedResourcesReferenceId="api.unified.en" />
@@ -290,7 +290,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.linkaccount">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=Unified</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=Unified</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:providerselection:1.2.0</DataUri>
         <Metadata>
@@ -310,7 +310,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.phonefactor">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=MFA</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=MFA</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:multifactor:1.2.0</DataUri>
         <Metadata>
@@ -330,7 +330,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.localaccount.login">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=LALogin</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=LALogin</LoadUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <LocalizedResourcesReferences MergeBehavior="Prepend">
           <LocalizedResourcesReference Language="en" Url="https://bing.com" LocalizedResourcesReferenceId="api.unified.en" />
@@ -346,7 +346,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.localaccount.loginByUsername">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=LALoginByUsername</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=LALoginByUsername</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:unifiedssp:1.0.0</DataUri>
         <Metadata>
@@ -366,7 +366,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.localaccount.loginByPhone">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=LALoginByUsername</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=LALoginByUsername</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:unifiedssp:1.0.0</DataUri>
         <Metadata>
@@ -386,7 +386,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.account.allergyinformation">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=AllergyInfo</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=AllergyInfo</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <Metadata>
@@ -406,7 +406,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.account.progressiveProfileAgeGating">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=LAProgressiveProfileAgeGating</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=LAProgressiveProfileAgeGating</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <Metadata>
@@ -426,7 +426,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.account.inviteUserByEmail">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=InviteUserByEmail</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=InviteUserByEmail</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <Metadata>
@@ -452,7 +452,7 @@
       Note: the paged run JavaScript. Use custom or shared domain to allow running client side code -->
       <ContentDefinition Id="api.account.appfactor.registration">
         <!--<LoadUri>~/tenant/default/selfasserted.cshtml</LoadUri>-->
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=AppFactorRegistration</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=AppFactorRegistration</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <Metadata>
@@ -472,7 +472,7 @@
       </ContentDefinition>
 
       <ContentDefinition Id="api.selfasserted">
-        <LoadUri>https://litware369b2cdemo.azurewebsites.net/B2CUI/GetB2CUI?type=SelfAsserted</LoadUri>
+        <LoadUri>https://litware369b2c.azurewebsites.net/B2CUI/GetB2CUI?type=SelfAsserted</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.0.0</DataUri>
         <Metadata>
