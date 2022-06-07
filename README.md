@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # Azure AD Custom policies demo
-=======
+
 
 This repository includes all the relevant source code and policies for the demo site: <https://aka.ms/CIAMDemo>
 
