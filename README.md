@@ -1,4 +1,6 @@
+<<<<<<< HEAD
 # Azure AD Custom policies demo
+=======
 
 This repository includes all the relevant source code and policies for the demo site: <https://aka.ms/CIAMDemo>
 
@@ -8,7 +10,7 @@ The project shows [Azure AD Custom policies](https://docs.microsoft.com/en-us/az
 
 ## Project Strucutre
 
-This project has three main packages : [Ploicies](https://github.com/azure-ad-b2c/woodgrove-groceries-demo/tree/Release/Policies) witch contains all Azure AD custom polices, [Scripts](https://github.com/azure-ad-b2c/woodgrove-groceries-demo/tree/Release/Scripts) witch contains scripts to build the project and [Src](https://github.com/azure-ad-b2c/woodgrove-groceries-demo/tree/Release/src/WoodGroveGroceriesWebApplication)) witch contains source code.
+This project has three main packages : [Ploicies](https://github.com/azure-ad-b2c/Litware-groceries-demo/tree/Release/Policies) witch contains all Azure AD custom polices, [Scripts](https://github.com/azure-ad-b2c/Litware-groceries-demo/tree/Release/Scripts) witch contains scripts to build the project and [Src](https://github.com/azure-ad-b2c/Litware-groceries-demo/tree/Release/src/LitwareGroceriesWebApplication)) witch contains source code.
 
 
 ## Build the project
@@ -126,7 +128,7 @@ To build this project you need to configure
       - Upload all of them on your Identity Experience Framework
   - ### **Source code**
     - Open [New-B2CPolicy.ps1](Scripts/New-B2CPolicy/New-B2CPolicy.ps1) and [New-B2CTenant.ps1](Scripts/New-B2CTenant/New-B2CTenant.ps1) and replace all **ClientId** values by your app client ID and **00000002-0000-0000-c000-000000000000** by your app directory (tenant) ID
-    - In the [appsettings.json](src/WoodGroveGroceriesWebApplication/appsettings.Development.json)
+    - In the [appsettings.json](src/LitwareGroceriesWebApplication/appsettings.Development.json)
       - Replace all **yourtenant** by your tenant name
       - Replace **ClientId** value by your app client Id
       - Replace **PolicyPrefix** value by your own prefix. e.g **B2C_1A**
@@ -134,7 +136,7 @@ To build this project you need to configure
       - Back to your client app on Azure, navigate to **Certificates & secrets**, add a new client secret. Copie the Value and paste in your appsettings **ClientSecret** values
       - Replace the value of **ApiKey** by your **SendGrid** API key
 
-    - Navigate to [Src/WoodGroveGroceriesWebApplication](Src/WoodGroveGroceriesWebApplication/) directory with command line interface. And execute :
+    - Navigate to [Src/LitwareGroceriesWebApplication](Src/LitwareGroceriesWebApplication/) directory with command line interface. And execute :
       - <pre> dotnet restore </pre>
       - <pre> dotnet dev-certs https --clean <br/> dotnet dev-certs https --trust </pre>
       - And finally 
